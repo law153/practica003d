@@ -6,6 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina principal</title>
     <link type="text/css" rel="stylesheet" href="estilo.css">
+
+    <style>
+        .navbar{
+            list-style-type: none;
+            margin: 14px;
+            padding: 14px;
+            background: #444;
+            overflow: hidden;
+        }
+
+        .navbar__item{
+            float: left;
+        }
+
+        .navbar__link{
+            display: inline;
+            padding: 14px 16px;
+            background: #444;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar__link:hover:not(.active){
+            background: #111;
+        }
+
+        .active{
+            background: #04AA6D;
+        }
+    </style>
 </head>
 <body style="font-family: Arial; text-align: center;">
     <header>
@@ -13,7 +44,13 @@
         <h1><b>ONG - AYUDA A UN PELUDO</b></h1>
         <!-- Barra de navegación-->
         <nav>
-            
+            <ul class="navbar">
+                <li class="navbar__item"><a href="index.html" class="navbar__link active">Menu prinicipal</a></li>
+                <li class="navbar__item"><a href="Gatos-menu.html" class="navbar__link">Gatos</a></li>
+                <li class="navbar__item"><a href="Perros-menu.html" class="navbar__link">Perros</a></li>
+                <li class="navbar__item"><a href="contacto.html" class="navbar__link">Contactos</a></li>
+                <li class="navbar__item"><a href="Gatos-menu.html" class="navbar__link">Acerca de nosotros</a></li>
+            </ul>
         </nav>
         <p style="font-size: 15px;">
             Ayuda a un peludo es una ONG que busca darle un hogar a los animales que viven en la calle, particularmente perros y gatos <br>
