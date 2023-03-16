@@ -2,6 +2,8 @@
     font-family: Arial;
 }
 
+/**Diseño de index**/
+
 .contenedor__miembros{
     height: 100px;
     width: 300px;
@@ -9,6 +11,28 @@
     margin: auto;
     text-align: left;
 }
+
+.contenedor__gato{
+    border: 2px solid #04AA6D;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor__perro{
+    border: 2px solid #04AA6D;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+/**Fin Diseño de index**/
 
 .modificacion_peludo{
     width: 650px;
