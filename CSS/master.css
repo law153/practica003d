@@ -2,6 +2,14 @@
     font-family: Arial;
 }
 
+.contenedor__miembros{
+    height: 100px;
+    width: 300px;
+    position: relative;
+    margin: auto;
+    text-align: left;
+}
+
 .modificacion_peludo{
     width: 650px;
     height: 350px;
