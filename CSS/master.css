@@ -1,0 +1,31 @@
+.modificacion_peludo{
+    width: 650px;
+    height: 350px;
+    float: left;
+}
+.modificacion_principal{
+    width: 650px;
+    height: 350px;
+    float: left;
+}
+.paputitulo{
+    color: rgb(0, 155, 216) !important;
+}
+.contexto{
+    color: rgb(0, 0, 0) !important;
+    margin:auto;
+    width: 20%;
+    border: 1px solid rgb(0, 155, 216);
+    text-align: center;
+    padding: 3px;
+}
+.info{
+    color: rgb(0, 0, 0) !important;
+    text-align: center;
+    padding: 3px;
+}
+#posicion{
+    color: rgb(0, 0, 0) !important;
+    position: absolute;
+    left: 669px;
+}
