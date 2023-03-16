@@ -1,0 +1,28 @@
+.navbar{
+    list-style-type: none;
+    margin: 14px;
+    padding: 14px;
+    background: #444;
+    overflow: hidden;
+}
+
+.navbar__item{
+    float: left;
+}
+
+.navbar__link{
+    display: inline;
+    padding: 14px 16px;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar__link:hover:not(.active){
+    background: #111;
+}
+
+.active{
+    background: #04AA6D;
+}
