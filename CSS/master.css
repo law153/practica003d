@@ -70,3 +70,23 @@ h2{
     position: absolute;
     left: 669px;
 }
+
+.contenido{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.contenido__p{
+    text-align: left;
+    height: 100px;
+    width: 250x;
+    display: flex;
+    justify-content: left;
+}
+
+
