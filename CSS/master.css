@@ -2,6 +2,10 @@
     font-family: Arial;
 }
 
+.contenedor__cuerpo{
+    background-image: url(../img/fondo.png);
+}
+
 /**Diseño de index**/
 
 .contenedor__miembros{
