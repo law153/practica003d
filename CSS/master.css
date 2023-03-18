@@ -6,7 +6,10 @@
 
 .contenedor__cuerpo{
     background-image: url(../img/fondo.png);
-    
+    height: 100%;
+    width: 100%;
+    padding-bottom: 200px;
+    padding-top: 20px;
 }
 
 /**Diseño de index**/
@@ -22,6 +25,7 @@
     font-size: 18px;
 }
 
+/**Fin Diseño de index**/
 .masc{
     display: flex;
     justify-content: center;
@@ -35,6 +39,12 @@
     display: flex;
     align-items: center;
     background: #fff;
+    object-fit: cover;
+}
+
+img{
+    height: 200px;
+    width: 200px;
 }
 
 h2{
@@ -42,7 +52,7 @@ h2{
     font-weight: bold;
     
 }
-/**Fin Diseño de index**/
+
 
 .modificacion_peludo{
     width: 650px;
