@@ -38,11 +38,13 @@
     align-items: center;
     background: #fff;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 img{
     height: 190px;
     width: 190px;
+    border-radius: 20px;
 }
 
 h2{
@@ -52,16 +54,6 @@ h2{
 }
 
 
-.modificacion_peludo{
-    width: 650px;
-    height: 350px;
-    float: left;
-}
-.modificacion_principal{
-    width: 650px;
-    height: 350px;
-    float: left;
-}
 .paputitulo{
     color: rgb(0, 155, 216) !important;
     font-weight: bold;
@@ -81,25 +73,21 @@ h2{
     padding: 3px;
     font-size: 20px;
 }
-#posicion{
-    color: rgb(0, 0, 0) !important;
-    position: absolute;
-    left: 669px;
-}
+
 
 .contenido{
     text-align: left;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 500px;
-    height: 600px;
+    width: 510px;
     align-items: center;
     border: 3px solid rgb(0, 0, 0);
     position: relative;
     margin: auto;
     background: #fff;
     margin-top: 20px;
+    border-radius: 20px;
 }
 
 .contenido__p{
@@ -107,6 +95,7 @@ h2{
     height: 80px;
     background: #fff;
     border: 2px solid #000;
+    border-radius: 20px;
 }
 
 .contenedor__titulo{
@@ -117,6 +106,8 @@ h2{
    padding: 2px;
    margin-top: 20px;
    margin-bottom: 20px;
+   border-radius: 10px;
+   border: 2px solid #444;
 }
 
 .animales{
@@ -129,10 +120,12 @@ h2{
     margin: auto;
     margin-top: 90px;
     padding-bottom: 20px;
+    border-radius: 20px;
 }
 
 .contenido__form{
     border: 2px solid #000;
     background: #fff;
     text-align: left;
+    border-radius: 20px;
 }
