@@ -5,57 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--CSS Propio-->
     <link type="text/css" rel="stylesheet" href="../CSS/barra.css">
     <link type="text/css" rel="stylesheet" href="../CSS/master.css">
 </head>
-<body>
-
-    <header style="text-align: center;">
-        <!--Encabezado-->
-        <h1 class="paputitulo"><b>ONG - AYUDA A UN PELUDO</b></h1>
-        <!-- Barra de navegación-->
-        <nav>
-            <ul class="navbar">
-                <li class="navbar__item"><a href="index.html" class="navbar__link">Menu prinicipal</a></li>
-                <li class="navbar__item"><a href="Gatos-menu.html" class="navbar__link">Gatos</a></li>
-                <li class="navbar__item"><a href="Perros-menu.html" class="navbar__link">Perros</a></li>
-                <li class="navbar__item"><a href="contacto.html" class="navbar__link active">Contactos</a></li>
-                <li class="navbar__item"><a href="acerca-de.html" class="navbar__link">Acerca de nosotros</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="contenedor__cuerpo">
-        <article>
-            <div class="contenedor__titulo">
+<body style="text-align:center">
+    
+    <div class="container-fluid">
+        <!--Navegación-->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="paputitulo">ONG - AYUDA A UN PELUDO</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="navbar">
+                    <li class="navbar__item"><a href="index.html" class="navbar__link ">Menu prinicipal</a></li>
+                    <li class="navbar__item"><a href="Gatos-menu.html" class="navbar__link">Gatos</a></li>
+                    <li class="navbar__item"><a href="Perros-menu.html" class="navbar__link">Perros</a></li>
+                    <li class="navbar__item"><a href="contacto.html" class="navbar__link active">Contactos</a></li>
+                    <li class="navbar__item"><a href="acerca-de.html" class="navbar__link">Acerca de nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid contenedor__cuerpo">
+        <!--Descripción-->
+        <div class="row">
+            <div class="col-md-12 contenedor__titulo">
                 <h2>Contacto</h2>
             </div>
-            <div class="contenido">
-                <div class="contenido__p">
-                    <p>
-                        Telefono: +5622950584377<br>
-                        E-mail: peludines@ayudaunpeludo.cl<br>
-                    </p>
-                </div>
-
-                <div class="contenido__form">
-                    <form>
-                        <label for="nom-ap">Nombre:</label><br>
-                        <input type="text" id="nom-ap" name="nom-ap"><br>
-
-                        <label for="asunto">Asunto:</label><br>
-                        <input type="text" id="asunto" name="asunto"><br>
-
-                        <label for="msg">Mensaje:</label><br>
-                        <textarea id="msg" name="msg" rows="4" cols="50">
-                        </textarea><br>
-
-                        <input type="submit" value="Submit">
-
-                    </form>
-                </div>
-
+        </div>
+        <!--Contacto-->
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 contenido__p">
+                <p>
+                    Telefono: +5622950584377<br>
+                    E-mail: peludines@ayudaunpeludo.cl<br>
+                </p>
             </div>
-        </article>
+            <div class="col-md-4"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 contenedor__titulo">
+                <h2>Escribenos:</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 contenido__form">
+                <form>
+                    <label for="nom-ap">Correo:</label><br>
+                    <input type="email" id="nom-ap" name="nom-ap"><br>
+
+                    <label for="asunto">Asunto:</label><br>
+                    <input type="text" id="asunto" name="asunto"><br>
+
+                    <label for="msg">Mensaje:</label><br>
+                    <textarea id="msg" name="msg" rows="4" cols="50">
+                    </textarea><br>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -5,50 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatos rescatados</title>
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--CSS Propio-->
     <link type="text/css" rel="stylesheet" href="../CSS/barra.css">
     <link type="text/css" rel="stylesheet" href="../CSS/master.css">
 </head>
 <body style="text-align: center;">
-    <header>
-        <!--Encabezado-->
-        <h1 class="paputitulo"><b>ONG - AYUDA A UN PELUDO</b></h1>
-        <!-- Barra de navegación-->
-        <nav>
-            <ul class="navbar">
-                <li class="navbar__item"><a href="index.html" class="navbar__link">Menu prinicipal</a></li>
-                <li class="navbar__item"><a href="Gatos-menu.html" class="navbar__link active">Gatos</a></li>
-                <li class="navbar__item"><a href="Perros-menu.html" class="navbar__link">Perros</a></li>
-                <li class="navbar__item"><a href="contacto.html" class="navbar__link">Contactos</a></li>
-                <li class="navbar__item"><a href="acerca-de.html" class="navbar__link">Acerca de nosotros</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="contenedor__cuerpo">
-        <div class="contenedor__titulo">
-            <h2>GATOS EN ADOPCIÓN</h2>
+    <div class="container-fluid">
+        <!--Navegación-->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="paputitulo">ONG - AYUDA A UN PELUDO</h1>
+            </div>
         </div>
-        <p class="info">
-            Aqui encontrará a los gatos que actualmente están en el refugio y que buscan una familia, asi como sus datos.<br>
-        </p>
-        <article>
-            <!--Gatitos-->
-            <div class="contenedor__titulo">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="navbar">
+                    <li class="navbar__item"><a href="index.html" class="navbar__link">Menu prinicipal</a></li>
+                    <li class="navbar__item"><a href="Gatos-menu.html" class="navbar__link  active">Gatos</a></li>
+                    <li class="navbar__item"><a href="Perros-menu.html" class="navbar__link">Perros</a></li>
+                    <li class="navbar__item"><a href="contacto.html" class="navbar__link">Contactos</a></li>
+                    <li class="navbar__item"><a href="acerca-de.html" class="navbar__link">Acerca de nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid contenedor__cuerpo">
+        <div class="row">
+            <div class="col-md-12 contenedor__titulo">
+                <h2>GATOS EN ADOPCIÓN</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="info">
+                    Aqui encontrará a los gatos que actualmente están en el refugio y que buscan una familia, asi como sus datos.<br>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 contenedor__titulo">
                 <h2>Nuestros gatos que buscan familia:</h2>
             </div>
-            <div class="masc">
-                <div class="contenedor__masc">
-                    <img src="../img/gato1.jfif" alt="No hay imagen disponible"> <a href="cat1.html" style="font-size: 20px;">Tommy</a>
-                </div>
-                <div class="contenedor__masc">
-                    <img src="../img/gato2.jpg" alt="No hay imagen disponible"> <a href="cat2.html" style="font-size: 20px;">Mari</a>
-                </div>
-                <div class="contenedor__masc">
-                    <img src="../img/gato3.jfif" alt="No hay imagen disponible"> <a href="cat3.html" style="font-size: 20px;">Sr. Papu</a>
-                </div>
+        </div>
+        <div class="row masc">
+            <div class="col-md-4 contenedor__masc">
+                <img src="../img/gato1.jfif" alt="No hay imagen disponible"> <a href="cat1.html" style="font-size: 20px;">Tommy</a>
             </div>
-        </article>
+            <div class="col-md-4 contenedor__masc">
+                <img src="../img/gato2.jpg" alt="No hay imagen disponible"> <a href="cat2.html" style="font-size: 20px;">Mari</a>
+            </div>
+            <div class="col-md-4 contenedor__masc">
+                <img src="../img/gato3.jfif" alt="No hay imagen disponible"> <a href="cat3.html" style="font-size: 20px;">Sr. Papu</a>
+            </div>
+        </div>
     </div>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -103,11 +103,10 @@ h2{
 }
 
 .contenido__p{
-    text-align: left;
-    height: 100px;
-    width: 250x;
-    display: flex;
-    justify-content: left;
+    text-align: center;
+    height: 80px;
+    background: #fff;
+    border: 2px solid #000;
 }
 
 .contenedor__titulo{
@@ -129,4 +128,11 @@ h2{
     position: relative;
     margin: auto;
     margin-top: 90px;
+    padding-bottom: 20px;
+}
+
+.contenido__form{
+    border: 2px solid #000;
+    background: #fff;
+    text-align: left;
 }
