@@ -4,61 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina principal</title>
+    <title>Pagina Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="../CSS/barra.css">
     <link type="text/css" rel="stylesheet" href="../CSS/master.css">
 </head>
-<body style="text-align: center;">
-    <header>
-        <!--Encabezado-->
-        <h1 class="paputitulo">ONG - AYUDA A UN PELUDO</h1>
-        <!-- Barra de navegación-->
-        <nav>
-            <ul class="navbar">
-                <li class="navbar__item"><a href="index.html" class="navbar__link active">Menu prinicipal</a></li>
-                <li class="navbar__item"><a href="Gatos-menu.html" class="navbar__link">Gatos</a></li>
-                <li class="navbar__item"><a href="Perros-menu.html" class="navbar__link">Perros</a></li>
-                <li class="navbar__item"><a href="contacto.html" class="navbar__link">Contactos</a></li>
-                <li class="navbar__item"><a href="acerca-de.html" class="navbar__link">Acerca de nosotros</a></li>
-            </ul>
-        </nav>
-    </header>
+<body style="text-align:center">
     
-    
-    <div class="contenedor__cuerpo">
-        <p class="info">
-            Ayuda a un peludo es una ONG que busca darle un hogar a los animales que viven en la calle, particularmente perros y gatos.<br>
-        </p>
-        <article>
-            <!--Integrantes-->
-            <div class="contenedor__titulo">
-                <h2>Nuestros integrantes:</h2>
+    <div class="container-fluid">
+        <!--Navegación-->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="paputitulo">ONG - AYUDA A UN PELUDO</h1>
             </div>
-            <div class="contenedor__miembros">
-                <ul>
-                    <li>Maria Gallardo - Dueña del refugio</li>
-                    <li>Marcelo Venegas - Veterinario</li>
-                    <li>Ignacio Valdebenito - Rescatista</li>
-                    <li>Hector Rojas - Rescatista</li>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="navbar">
+                    <li class="navbar__item"><a href="index.html" class="navbar__link active">Menu prinicipal</a></li>
+                    <li class="navbar__item"><a href="Gatos-menu.html" class="navbar__link">Gatos</a></li>
+                    <li class="navbar__item"><a href="Perros-menu.html" class="navbar__link">Perros</a></li>
+                    <li class="navbar__item"><a href="contacto.html" class="navbar__link">Contactos</a></li>
+                    <li class="navbar__item"><a href="acerca-de.html" class="navbar__link">Acerca de nosotros</a></li>
                 </ul>
             </div>
-            <!--Secciones-->
-            <div class="contenedor__titulo">
+        </div>
+    </div>
+    <div class="container-fluid contenedor__cuerpo">
+        <!--Descripción-->
+        <div class="row">
+            <div class="col-md-12">
+                <p class="info">
+                    Ayuda a un peludo es una ONG que busca darle un hogar a los animales que viven en la calle, particularmente perros y gatos.<br>
+                </p>
+            </div>
+        </div>
+        <!--Integrantes-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contenedor__titulo">
+                    <h2>Nuestros integrantes:</h2>
+                </div>
+                <div class="contenedor__miembros">
+                    <ul>
+                        <li>Maria Gallardo - Dueña del refugio</li>
+                        <li>Marcelo Venegas - Veterinario</li>
+                        <li>Ignacio Valdebenito - Rescatista</li>
+                        <li>Hector Rojas - Rescatista</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!--Secciones-->
+        <div class="row">
+            <div class="col-md-12 contenedor__titulo">
                 <h2>Nuestras secciones de ayuda:</h2>
             </div>
-            <div class="masc">
-                <div class="contenedor__masc">
+        </div>
+        <div class="row masc">
+            <div class="col-md-6 contenedor__masc">
                     <img src="../img/gatos-menu.jpg" alt="No hay imagen disponible"> <a href="Gatos-menu.html" style="font-size: 20px;">Gatos</a> <br>
-                </div>
-                <div class="contenedor__masc">
-                    <img src="../img/perros-menu.jpg" alt="No hay imagen disponible"> <a href="Perros-menu.html" style="font-size: 20px;">Perros</a>
-                </div>
             </div>
-
-        </article>
+            <div class="col-md-6 contenedor__masc">
+                    <img src="../img/perros-menu.jpg" alt="No hay imagen disponible"> <a href="Perros-menu.html" style="font-size: 20px;">Perros</a>
+            </div>
+        </div>
     </div>
     
-    
-    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
