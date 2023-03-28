@@ -23,6 +23,10 @@
     background: #111;
 }
 
+.navbar__link:hover{
+    color: #fff;
+}
+
 .active{
-    background: #00ebf3;
+    background: rgb(0, 155, 216);
 }
